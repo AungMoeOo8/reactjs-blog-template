@@ -12,16 +12,17 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Box
+        {/* <Box
           position="absolute"
-          w="100vw"
+          minW={"-webkit-fill-available"}
+          top={0}
           h="50vh"
-          // background='url("https://websavii.com/wp-content/uploads/2016/07/fountain-pen1.jpg") no-repeat'
+          background='url("https://websavii.com/wp-content/uploads/2016/07/fountain-pen1.jpg") no-repeat'
           backgroundSize="cover"
           backgroundPosition="center"
           zIndex="-1"
           sx={{ maskImage: "linear-gradient(black, transparent)" }}
-        ></Box>
+        ></Box> */}
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
